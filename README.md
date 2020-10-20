@@ -2,74 +2,21 @@
 
 Tableau story found here: https://public.tableau.com/profile/jerod.rhodes#!/vizhome/CitiBikeAnalysis_15998444324150/2018CitiBikeAnalysis?publish=yes
 
+2018 CitiBike Analysis
 
-Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.
-The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!
+When analyzing the data for CitiBike for 2018, the following phenomenons were observed:
 
+1. May through October are the most popular months for all user types, however even though the number of trips taken each month stays fairly consistent, the number of miles traveled begins to decline drastically from June through October. Is this decrease in mileage caused by changing weather conditions (too hot followed by too cold) or is it cause by a decrease in daylight hours?
 
-How many trips have been recorded total during the chosen period?
+![month image](img/month_riders.PNG)
+![trip image](img/trips_miles.PNG)
 
+2. Looking at monthly ride start times classified by gender, the majority of customers (24-hour and 3-day pass purchasers) do not select a gender when beginning their ride. When you include birth years, all of the customers who did not select a gender chose 1960-69 as their birth year. Do riders in this age group not want to share too much of their personal information. It was also noted that female riders make up a small percentage of subscribers for CitiBike. This could stem from a female rider not feeling safe out in the open, possibly on their own, in NYC. Another anomaly that was observed where birth years selected dating back to 1880? CitiBike may want to limit birth years to a reasonable range, back to 1940, and require gender classification (perhaps with added non-traditional categories) to better track rider data.
 
-By what percentage has total ridership grown?
+![gender image](img/gender_riders.PNG)
 
+3. When looking at year-round peak hours, it was unusual to see that subscriber usage was at its highest during the winter months when customer usage was at its lowest. Could this mean that people living in New York are more likely to use the service when there are less tourists? It was also interesting to note that no matter the time of year, subscribers were consistently using the service from 6:00 AM until 11:00 PM. Where customers were using the service during the more typical business/tourist hours of 9:00 AM to 7:00 PM.
 
-How has the proportion of short-term customers and annual subscribers changed?
+![hours image](img/peak_hours.PNG)
 
-
-What are the peak hours in which bikes are used during summer months?
-
-
-What are the peak hours in which bikes are used during winter months?
-
-
-Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-
-Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-
-Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-
-Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-
-Today, what is the gender breakdown of active participants (Male v. Female)?
-
-
-How effective has gender outreach been in increasing female ridership over the timespan?
-
-
-How does the average trip duration change by age?
-
-
-What is the average distance in miles that a bike is ridden?
-
-
-Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-
-How variable is the utilization by bike ID?
-
-
-Next, as a chronic over-achiever:
-
-Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring.
-
-City officials would also like to see one of the following visualizations:
-
-
-Basic: A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-
-Advanced: A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-
-The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-
-Finally, create your final presentation
-
-Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing.
+![stations image](img/station_popularity.PNG)
